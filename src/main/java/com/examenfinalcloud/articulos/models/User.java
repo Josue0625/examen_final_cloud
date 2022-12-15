@@ -17,22 +17,22 @@ public class User {
     private Long id;                                          // Creamos un dato long y le indicamos que va ser la llave primaria del usuario
     @Column(length = 100, nullable = false)
     @NotBlank(message = "El nombre no puede estar en blanco")
-    private String name;
+    private String name;                                      // Creamos un dato String para el nombre del usuario
     @Column(length = 300, nullable = false)
     @NotBlank(message = "El apellido no puede estar en blanco")
-    private String lastname;
+    private String lastname;                                  // Creamos un dato String para el apellido del usuario
     @Column(length = 20, nullable = false, unique = true)
     @NotBlank(message = "El documento no puede estar en blanco")
-    private String document;
+    private String document;                                  // Creamos un dato String para el documento del usuario
     @Column(length = 100)
-    private String direction;
-    private Date date;
+    private String direction;                                 // Creamos un dato String para el direccion del usuario
+    private Date date;                                        // Creamos un dato tipo date para la fecha de nacimiento
     @Column(length = 20)
-    private String phone;
+    private String phone;                                    // Creamos un dato String para el numero telefonico del usuario
     @Column(nullable = false,unique = true, length = 100)
     @NotBlank(message = "El correo no puede estar en blanco")
-    private String email;
+    private String email;                                    // Creamos un dato String para el correo del usuario
     @Column(nullable = false, length = 64)
     @NotBlank(message = "La contraseña no puede estar en blanco")
-    private String password;
+    private String password;                                 // Creamos un dato String para la contraseña del usuario, va tener una longitud de 64 bits ya que va estar encriptada
 }
