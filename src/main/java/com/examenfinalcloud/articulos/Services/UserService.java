@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import java.util.List;
 
 public interface UserService {                              //Servicios para el usuario
-    ResponseEntity<User> getUserById(Long codigo);             //TServisio para traer un usuario especifico por el id
+    ResponseEntity<User> getUserById(Long id);             //TServisio para traer un usuario especifico por el id
     ResponseEntity<User> createUser(User user);                //Este es el serviciio para crear un usuario
     ResponseEntity<List<User>> allUsers();                     //Servicio para traer todos los usuarios
     ResponseEntity<List<User>> allUsersByName(String name);    //Servicio para traer todos los usuarios con el mismo nombre
