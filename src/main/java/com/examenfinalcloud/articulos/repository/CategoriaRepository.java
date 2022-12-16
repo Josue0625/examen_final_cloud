@@ -1,5 +1,5 @@
 package com.examenfinalcloud.articulos.repository;
-//Se importaron las librerias a usar dentro del modelo de categoria
+//Se importaron las librerias a usar dentro del repositorio de categoria
 import com.examenfinalcloud.articulos.models.Categoria;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
