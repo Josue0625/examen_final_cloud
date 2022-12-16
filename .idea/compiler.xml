@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="articulos" />
+        <module name="examen_final_cloud" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="articulos" options="-parameters" />
+      <module name="examen_final_cloud" options="-parameters" />
     </option>
   </component>
 </project>
