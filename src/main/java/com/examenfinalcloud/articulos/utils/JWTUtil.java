@@ -1,5 +1,5 @@
 package com.examenfinalcloud.articulos.utils;
-
+//Se importan las librerias para el desarrollo del JWTUtil
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
